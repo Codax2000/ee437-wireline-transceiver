@@ -1,7 +1,7 @@
 cadence/*.log*
 cadence/.nfs*
 *.log
-**.cdslck
+**.cdslck*
 cadence/CDS.log.cdslck
 cadence/CDS.log
 cadence/cdsLibEditor.log
