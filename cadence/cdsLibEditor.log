@@ -1,75 +1,25 @@
 \o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT37 03/12/2021 04:32 (sjfdcl1035) $
 \o Sub version:		sub-version  s175 
-\o Arguments:		-cdslib /home/ak247/EE437/cadence/cds.lib -mpssession virtuoso10281 -mpshost linux-lab-050.ece.uw.edu 
+\o Arguments:		-cdslib /home/ak247/EE437/cadence/cds.lib -mpssession virtuoso1294 -mpshost linux-lab-050.ece.uw.edu 
 \o Working Directory:	linux-lab-050.ece.uw.edu:/home/ak247/EE437/cadence
 \o 64-bit offsets
 \a nrSetWindowVisibility(cdsLibEditor "show")
 \o Qt version: 		5.9.1
 \a nrSetCurrentWindow(cdsLibEditor)
 \a nrResizeWindow(cdsLibEditor list(694 275 500 400))
-\a nrListItemAction(cdsLibEditor->mainTable 6 0)
-\o Active cell: 6 0 ""
 \a nrListItemAction(cdsLibEditor->mainTable 6 1)
-\o Active cell: 6 1 ""
-\a cdsLibEditor->editAddLibButton->value = t
-\a newLibraryDialog->filePathComboBox->value = "/home/ak247/EE437/cadence"
-\a newLibraryDialog->useMappedName->value = nil
-\a nrSetWindowVisibility(newLibraryDialog "show")
-\a nrSetCurrentWindow(newLibraryDialog)
-\a nrResizeWindow(newLibraryDialog list(679 214 531 513))
-\a newLibraryDialog->filePathComboBox->value = "/home/lab.apps/vlsiapps/kits"
-\a newLibraryDialog->dirListWidget->value = "FreePDK45"
-\a newLibraryDialog->filePathComboBox->value = "/home/lab.apps/vlsiapps/kits/FreePDK45"
-\a nrListItemAction(newLibraryDialog->dirListWidget 1 0)
-\a newLibraryDialog->dirListWidget->value = nil
-\a newLibraryDialog->dirListWidget->value = "ncsu_basekit"
-\a newLibraryDialog->filePathComboBox->value = "/home/lab.apps/vlsiapps/kits/FreePDK45/ncsu_basekit"
-\a nrListItemAction(newLibraryDialog->dirListWidget 1 0)
-\a newLibraryDialog->dirListWidget->value = nil
-\a newLibraryDialog->dirListWidget->value = "lib"
-\a newLibraryDialog->filePathComboBox->value = "/home/lab.apps/vlsiapps/kits/FreePDK45/ncsu_basekit/lib"
-\a nrListItemAction(newLibraryDialog->dirListWidget 5 0)
-\a newLibraryDialog->dirListWidget->value = nil
-\a newLibraryDialog->dirListWidget->value = ".."
-\a newLibraryDialog->filePathComboBox->value = "/home/lab.apps/vlsiapps/kits/FreePDK45/ncsu_basekit/lib/.."
-\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
-\a newLibraryDialog->filePathComboBox->value = "/home/lab.apps/vlsiapps/kits/FreePDK45/ncsu_basekit"
-\a newLibraryDialog->dirListWidget->value = nil
-\a newLibraryDialog->dirListWidget->value = ".."
-\a newLibraryDialog->filePathComboBox->value = "/home/lab.apps/vlsiapps/kits/FreePDK45/ncsu_basekit/.."
-\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
-\a newLibraryDialog->filePathComboBox->value = "/home/lab.apps/vlsiapps/kits/FreePDK45"
-\a newLibraryDialog->dirListWidget->value = nil
-\a newLibraryDialog->dirListWidget->value = "stcell"
-\a newLibraryDialog->filePathComboBox->value = "/home/lab.apps/vlsiapps/kits/FreePDK45/stcell"
-\a nrListItemAction(newLibraryDialog->dirListWidget 3 0)
-\a newLibraryDialog->dirListWidget->value = nil
-\a newLibraryDialog->dirListWidget->value = "NangateOpenCellLibrary_PDKv1_3_v2010_12"
-\a newLibraryDialog->filePathComboBox->value = "/home/lab.apps/vlsiapps/kits/FreePDK45/stcell/NangateOpenCellLibrary_PDKv1_3_v2010_12"
-\a nrListItemAction(newLibraryDialog->dirListWidget 1 0)
-\a newLibraryDialog->dirListWidget->value = nil
-\a newLibraryDialog->dirListWidget->value = "Back_End"
-\a newLibraryDialog->filePathComboBox->value = "/home/lab.apps/vlsiapps/kits/FreePDK45/stcell/NangateOpenCellLibrary_PDKv1_3_v2010_12/Back_End"
-\a nrListItemAction(newLibraryDialog->dirListWidget 1 0)
-\a newLibraryDialog->dirListWidget->value = nil
-\a newLibraryDialog->dirListWidget->value = "virtuoso"
-\a newLibraryDialog->filePathComboBox->value = "/home/lab.apps/vlsiapps/kits/FreePDK45/stcell/NangateOpenCellLibrary_PDKv1_3_v2010_12/Back_End/virtuoso"
-\a nrListItemAction(newLibraryDialog->dirListWidget 7 0)
-\a newLibraryDialog->dirListWidget->value = nil
-\a newLibraryDialog->libraryListBox->value = "NangateOpenCellLibrary"
-\a newLibraryDialog->useMappedName->value = t
-\a newLibraryDialog->libraryName->value = "NangateOpenCellLibrary"
-\a newLibraryDialog->okButton->value = t
-\a nrListItemRename(cdsLibEditor->mainTable, 6 1 "/home/lab.apps/vlsiapps/kits/FreePDK45/stcell/NangateOpenCellLibrary_PDKv1_3_v2010_12/Back_End/virtuoso/NangateOpenCellLibrary")
-\a newLibraryDialog->libraryListBox->value = nil
-\a newLibraryDialog->useMappedName->value = nil
-\a newLibraryDialog->libraryName->value = ""
+\o Active cell: 6 1 "/home/lab.apps/vlsiapps/kits/FreePDK45/stcell/NangateOpenCellLibrary_PDKv1_3_v2010_12/Back_End/virtuoso/NangateOpenCellLibrary"
+\a nrListItemRename(cdsLibEditor->mainTable, 6 1 "$PDK_DIR/stcell/NangateOpenCellLibrary_PDKv1_3_v2010_12/Back_End/virtuoso/NangateOpenCellLibrary")
 \a nrListItemAction(cdsLibEditor->mainTable 7 0)
-\o Active cell: 7 0 ""
+\o Active cell: 7 0 "channel_response_test"
+\a nrListItemAction(cdsLibEditor->mainTable 8 1)
+\o Active cell: 8 1 ""
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(cdsLibEditor list(606 248 500 400))
 \a nrSetCurrentWindow(cdsLibEditor)
 \o QUESTION (CLE-205): You have made changes which have not been saved. \n\nWould you like to save your changes? 
 \a nrSetWindowVisibility(needSaveDialog "show")
 \a nrSetCurrentWindow(needSaveDialog)
-\a nrResizeWindow(needSaveDialog list(750 367 369 136))
-\a needSaveDialog->yesButton->value = t
+\a nrResizeWindow(needSaveDialog list(662 340 369 136))
+\a needSaveDialog->noButton->value = t
 \a exit(0)
