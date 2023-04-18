@@ -1,0 +1,11 @@
+**/cadence/*log*
+**/cadence/.nfs*e
+*.log
+**.cdslck
+cadence/CDS.log.cdslck
+cadence/CDS.log
+cadence/cdsLibEditor.log
+cadence/libManager.log
+cadence/libManager.log.cdslck
+cadence/.cadence/dfII/history/ak247.history
+cadence/channel_response_test/impulse_response/schematic/sch.oa.cdslck
