@@ -961,3 +961,6 @@
 \r t
 \a when(dwindow('treeAssistant5) hiMapWindow(dwindow('treeAssistant5)))
 \r t
+\a schSingleSelectPt()
+\i -0.25:-1.6875
+\r nil
