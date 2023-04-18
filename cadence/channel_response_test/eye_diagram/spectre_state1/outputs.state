@@ -9,7 +9,7 @@ tmp1 = make_sevOutputStruct()
 tmp1 = (ncons nil)
 )
 tmp1->definedIn = ""
-tmp1->name = "Output Voltage"
+tmp1->name = "out"
 tmp1->expression = (let
 (tmp1 tmp2 tmp3)
 tmp1 = 'difference
@@ -57,7 +57,7 @@ tmp1->yaxisLabel = nil
 tmp1->label = nil
 tmp1->yaxisUnit = nil
 tmp1->waveSpec = nil
-tmp1->uniqueName = "Output Voltage"
+tmp1->uniqueName = "out"
 tmp1->inValidObject = nil
 list(tmp1)
 )
