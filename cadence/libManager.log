@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 03/12/2021 04:24 (sjfdcl1035) $
 \o Sub version:		sub-version  s175 
-\o Arguments:		-unmapped -mpssession virtuoso1294 -mpshost linux-lab-050.ece.uw.edu 
+\o Arguments:		-unmapped -mpssession virtuoso25013 -mpshost linux-lab-050.ece.uw.edu 
 \o Working Directory:	linux-lab-050.ece.uw.edu:/home/ak247/EE437/cadence
 \o 64-bit offsets
 \o Qt version: 		5.9.1
@@ -10,29 +10,27 @@
 \o Opening libManager window.
 \a nrSetWindowVisibility(cdsLibManager "show")
 \o MPS service: map window
-\a nrSetCurrentWindow(cdsLibManager)
 \o Library Manager customization server connected.
-\a nrResizeWindow(cdsLibManager list(713 319 845 507))
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "channel_response_test"
-\a cdsLibManager->libLineEdit->value = "channel_response_test"
-\a cdsLibManager->cellListBox->value = "test_nmos"
-\a cdsLibManager->cellLineEdit->value = "test_nmos"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellListBox->value = "test_nmos"
-\a cdsLibManager->cellLineEdit->value = "test_nmos"
-\a lmgrLogShowPopup("mainListPopup1" 67 46 2 "test_nmos")
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a _lmgrCloseIconify("cdsLibManager" 1)
+\a nrResizeWindow(cdsLibManager list(713 319 845 507))
+\a cdsLibManager->libListBox->value = "NangateOpenCellLibrary"
+\a cdsLibManager->libLineEdit->value = "NangateOpenCellLibrary"
+\a cdsLibManager->libListBox->value = "NCSU_Devices_FreePDK45"
+\a cdsLibManager->libLineEdit->value = "NCSU_Devices_FreePDK45"
+\a cdsLibManager->libListBox->value = "NCSU_TechLib_FreePDK45"
+\a cdsLibManager->libLineEdit->value = "NCSU_TechLib_FreePDK45"
+\a cdsLibManager->libListBox->value = "NCSU_Devices_FreePDK45"
+\a cdsLibManager->libLineEdit->value = "NCSU_Devices_FreePDK45"
+\a cdsLibManager->libListBox->value = "NCSU_TechLib_FreePDK45"
+\a cdsLibManager->libLineEdit->value = "NCSU_TechLib_FreePDK45"
+\a cdsLibManager->libListBox->value = "NangateOpenCellLibrary"
+\a cdsLibManager->libLineEdit->value = "NangateOpenCellLibrary"
+\o MPS request: update library list
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "channel_response_test"
-\a cdsLibManager->libLineEdit->value = "channel_response_test"
-\a cdsLibManager->cellListBox->value = "test_nmos"
-\a cdsLibManager->cellLineEdit->value = "test_nmos"
-\o MPS service: shutdown
-\o libManager is exiting.
-\a exit(0)
+\a cdsLibManager->libListBox->value = "NangateOpenCellLibrary"
+\a cdsLibManager->libLineEdit->value = "NangateOpenCellLibrary"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "NangateOpenCellLibrary"
+\a cdsLibManager->libLineEdit->value = "NangateOpenCellLibrary"

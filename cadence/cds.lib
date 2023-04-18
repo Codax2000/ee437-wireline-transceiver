@@ -1,4 +1,4 @@
-# File Created by Alexander Knowlton at Tue Apr 18 00:03:12 2023
+# File Created by Alexander Knowlton at Tue Apr 18 14:07:21 2023
 # assisted by CdsLibEditor
 DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
 DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths

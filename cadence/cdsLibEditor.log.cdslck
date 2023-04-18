@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      ak247
+HostName                       linux-lab-050.ece.uw.edu
+ProcessIdentifier              28948
+ProcessCreationTime_UTC        1681852060
+ProcessCreationTime_Readable   Tue Apr 18 14:07:40 2023 PDT
+AppIdentifier                  /home/lab.apps/vlsiapps_new/virtuoso/current/tools/dfII/bin/64bit/cdsLibEditor
+OSType                         lnx86
+ReasonForPlacingEditLock       log file
+FilePathUsedToEditLock         /home/ak247/EE437/cadence/./cdsLibEditor.log
+TimeEditLocked                 Tue Apr 18 14:07:40 2023 PDT
