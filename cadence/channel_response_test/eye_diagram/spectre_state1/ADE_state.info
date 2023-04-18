@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("channel_response_test" "eye_diagram" "schematic" "spectre")
+descriptionText = "None"
