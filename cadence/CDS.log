@@ -1,0 +1,963 @@
+\# Program start time:     UTC 2023.04.18 07:02:26.653
+\# Local time: PDT (UTC-07:00) 2023.04.18 00:02:26.653
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 03/13/2021 15:49 (cpgsrv07) $
+\o Hierarchy:		/home/lab.apps/vlsiapps_new/virtuoso/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.17  (64-bit addresses)
+\# Command line:	/home/lab.apps/vlsiapps_new/virtuoso/current/tools/dfII/bin/64bit/virtuoso
+\# Host name (type):	linux-lab-050.ece.uw.edu (x86_64)
+\# Operating system:	Linux 3.10.0-1160.88.1.el7.x86_64 #1 SMP Tue Mar 7 15:41:52 UTC 2023
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:1.0 (1895x1000)
+\# Available geometry:			TL(0:31) BR(1894:950)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12004000)
+\# X resource pool:	base 0x2a00000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        552 MB
+\# Available memory:	    132,116 MB
+\# System memory:	    146,785 MB
+\# Maximum memory size:	    146,405 MB
+\# Max mem available:	    132,288 MB
+\# Initial memory used:	        172 MB
+\#        process size:	      1,646 MB
+\# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 8.00/8.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		ak247
+\o Working Directory:	linux-lab-050.ece.uw.edu:/home/ak247/EE437/cadence
+\# Process Id:		10281
+\o 
+\o COPYRIGHT (C) 1992-2021  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2021  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+\# Memory report: using         301 MB, process size 1,830 MB at UTC 2023.04.18 07:02:31.309
+\o //
+\o //  Calibre Skill Interface * (v2021.1_33.19) *
+\o //
+\o //                         Copyright Siemens 1996-2020     
+\o //                             All Rights Reserved.
+\o //         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //
+\o loading vars from /homes/lab.apps/vlsiapps/kits/FreePDK45/ncsu_basekit/cdssetup/cdsenv for tool layout
+\o ---------------------------------------------------------------------------
+\o Welcome to the FreePDK 45nm Free, Open-Source Process Design Kit
+\o 
+\o This initiative is brought to you by the Semiconductor Research
+\o Corporation (SRC), the National Science Foundation (NSF), Silicon
+\o Integration Initiative (Si2), Mentor Graphics, and Synopsys.
+\o 
+\o This version of the kit was created by Rhett Davis, Paul Franzon,
+\o Michael Bucher, and Sunil Basavarajaiah of North Carolina State University,
+\o and James Stine and Ivan Castellanos of Oklahoma State University.
+\o 
+\o Contributions and modifications to this kit are welcomed and encouraged.
+\o 
+\o Copyright 2008 North Carolina State University (ncsu_basekit subtree)
+\o                and Oklahoma State University (osu_soc subtree)
+\o 
+\o Licensed under the Apache License, Version 2.0 (the "License");
+\o you may not use this file except in compliance with the License.
+\o You may obtain a copy of the License at
+\o 
+\o     http://www.apache.org/licenses/LICENSE-2.0
+\o 
+\o Unless required by applicable law or agreed to in writing, software
+\o distributed under the License is distributed on an "AS IS" BASIS,
+\o WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+\o See the License for the specific language governing permissions and
+\o limitations under the License.
+\o ---------------------------------------------------------------------------
+\o 
+\o Done loading FreePDK customizations.
+\p > 
+\w *WARNING* could not load font "-*-courier-medium-r-*-*-12-*", using font "fixed"
+\a _treeSetOpcGUI(t)
+\r t
+\a ddsHiOpenCdsLibEditor()
+\r ipc:6
+\# Available memory:        131,975 MB at UTC 2023.04.18 07:02:37.450
+\# Memory report: Maximum memory size now 132,288 MB at UTC 2023.04.18 07:02:37.450
+\# Thread usage report: 9 active threads, active load 1.00 at UTC 2023.04.18 07:02:37.450
+\o  
+\o (virtuoso) Syncing library list with the Library Manager.
+\i ddUpdateLibList()
+\a ddsOpenLibManager()
+\r t
+\o  
+\o Library Manager created library "channel_response_test"
+\p > 
+\a hiiSetCurrentForm('ddsTechOptionForm)
+\r t
+\a ddsTechOptionForm->Option->value="Attach to an existing technology library"
+\r "Attach to an existing technology library"
+\a hiFormDone(ddsTechOptionForm)
+\i tcNewLibDisplayAttachTechForm("channel_response_test")
+\p > 
+\a hiiSetCurrentForm('tcNewLibAttachTechForm)
+\r t
+\a tcNewLibAttachTechForm->attachTechLibList->value= '( "NangateOpenCellLibrary" )
+\r ("NangateOpenCellLibrary")
+\a hiFormDone(tcNewLibAttachTechForm)
+\o INFO (TECH-180011): Design library 'channel_response_test' successfully attached to technology library 'NangateOpenCellLibrary'.
+\r t
+\r t
+\o  
+\o Library Manager new cellview request for library "channel_response_test".
+\i deNew('(nil libName "channel_response_test"))
+\p > 
+\a hiiSetCurrentForm('deNewForm)
+\r t
+\a deNewForm->deCellName->value="test_nmos"
+\r "test_nmos"
+\a hiFormDone(deNewForm)
+\r t
+\# Displaying modal dbox "_icLicLicenseQuestionDBox", title "Next License"
+\p > 
+\a hiDBoxUser(_icLicLicenseQuestionDBox nil 1)
+\r t
+\# Current Window: window(2)
+\o Loading schematic.cxt 
+\o Loading ddui.cxt 
+\o Loading vb.cxt 
+\o Loading nt.cxt 
+\o Loading oi.cxt 
+\o Loading see.cxt 
+\o Loading treeAssistant.cxt 
+\o Loading asst.cxt 
+\o Loading hsm.cxt 
+\o Loading oasis.cxt 
+\o Loading simui.cxt 
+\a when(dwindow('oiAssistant1) hiMapWindow(dwindow('oiAssistant1)))
+\r t
+\a when(dwindow('treeAssistant1) hiMapWindow(dwindow('treeAssistant1)))
+\r t
+\w *WARNING* The display packet information 'PacketName_0' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_2' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_3' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_4' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_5' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_6' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_11' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_12' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_13' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_14' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_19' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_26' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_30' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_31' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_35' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_36' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_40' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_41' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_45' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_46' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_50' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_51' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_55' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_56' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_60' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_61' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_65' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_66' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_70' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_71' for 'display' was not found.
+\w *WARNING* The display packet information 'PacketName_77' for 'display' was not found.
+\w *WARNING* The display packet information 'poly_blockage' for 'display' was not found.
+\w *WARNING* The display packet information 'active_blockage' for 'display' was not found.
+\w *WARNING* The display packet information 'metal1_blockage' for 'display' was not found.
+\w *WARNING* The display packet information 'metal1_track' for 'display' was not found.
+\w *WARNING* The display packet information 'via1_blockage' for 'display' was not found.
+\w *WARNING* The display packet information 'metal2_blockage' for 'display' was not found.
+\w *WARNING* The display packet information 'metal2_track' for 'display' was not found.
+\w *WARNING* The display packet information 'via2_blockage' for 'display' was not found.
+\w *WARNING* The display packet information 'metal3_blockage' for 'display' was not found.
+\w *WARNING* The display packet information 'metal3_track' for 'display' was not found.
+\w *WARNING* The display packet information 'via3_blockage' for 'display' was not found.
+\w *WARNING* The display packet information 'metal4_blockage' for 'display' was not found.
+\w *WARNING* The display packet information 'metal4_track' for 'display' was not found.
+\w *WARNING* The display packet information 'via4_blockage' for 'display' was not found.
+\w *WARNING* The display packet information 'metal5_blockage' for 'display' was not found.
+\w *WARNING* The display packet information 'metal5_track' for 'display' was not found.
+\w *WARNING* The display packet information 'via5_blockage' for 'display' was not found.
+\w *WARNING* The display packet information 'metal6_blockage' for 'display' was not found.
+\w *WARNING* The display packet information 'metal6_track' for 'display' was not found.
+\w *WARNING* The display packet information 'via6_blockage' for 'display' was not found.
+\w *WARNING* The display packet information 'metal7_blockage' for 'display' was not found.
+\w *WARNING* The display packet information 'metal7_track' for 'display' was not found.
+\w *WARNING* The display packet information 'via7_blockage' for 'display' was not found.
+\w *WARNING* The display packet information 'metal8_blockage' for 'display' was not found.
+\w *WARNING* The display packet information 'metal8_track' for 'display' was not found.
+\w *WARNING* The display packet information 'via8_blockage' for 'display' was not found.
+\w *WARNING* The display packet information 'metal9_blockage' for 'display' was not found.
+\w *WARNING* The display packet information 'metal9_track' for 'display' was not found.
+\w *WARNING* The display packet information 'via9_blockage' for 'display' was not found.
+\w *WARNING* The display packet information 'metal10_blockage' for 'display' was not found.
+\w *WARNING* The display packet information 'metal10_track' for 'display' was not found.
+\a schHiCreateInst()
+\p > 
+\a hiiSetCurrentForm('schCreateInstForm)
+\r t
+\a schCreateInstForm->libraryName->value="NangateOpenCellLibrary"
+\r "NangateOpenCellLibrary"
+\a schCreateInstForm->libraryName->value="NCSU_Devices_FreePDK45"
+\r "NCSU_Devices_FreePDK45"
+\a schCreateInstForm->cellName->value="NMOS_VTL"
+\o Loading cdf.cxt 
+\o Loading le.cxt 
+\w *WARNING* could not load font "-*-helvetica-medium-r-*-*-12-*", using font "fixed"
+\w *WARNING* Font name -*-helvetica-medium-r-*-*-12-* is invalid 
+\w *WARNING* Font name -*-helvetica-medium-r-*-*-12-* is invalid 
+\w *WARNING* Font name -*-helvetica-medium-r-*-*-12-* is invalid 
+\r "NMOS_VTL"
+\a hiiToggleEnterForm(schCreateInstForm)
+\r t
+\a mouseAddPt(t)
+\i -0.24375:0.81875
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomOutAtMouse()
+\i 0.0625:0.0625
+\r t
+\a hiZoomInAtMouse()
+\i -0.1875:1.3125
+\r t
+\a hiZoomInAtMouse()
+\i -0.0625:0.125
+\r t
+\a hiZoomInAtMouse()
+\i -0.0625:0.125
+\r t
+\a hiZoomOutAtMouse()
+\i -0.0625:0.125
+\r t
+\a hiZoomOutAtMouse()
+\i -0.0625:0.1875
+\r t
+\a hiZoomInAtMouse()
+\i -0.1875:1
+\r t
+\a schHiCreateInst()
+\p > 
+\a schCreateInstForm->libraryName->value="analogLib"
+\r "analogLib"
+\a schCreateInstForm->cellName->value="vdc"
+\r "vdc"
+\a hiiToggleEnterForm(schCreateInstForm)
+\r t
+\a mouseAddPt(t)
+\i -0.69375:0.7
+\r t
+\a mouseAddPt(t)
+\i 0.8:1.25
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateInst()
+\p > 
+\a schCreateInstForm->cellName->value="gnd"
+\r "gnd"
+\a hiiToggleEnterForm(schCreateInstForm)
+\r t
+\a mouseAddPt(t)
+\i -0.00625:0.10625
+\r t
+\a schHiCreateWire(0.0)
+\o Loading layers.cxt 
+\r t
+\a mouseAddPt(t)
+\i 0.00625:0.125
+\r t
+\a mouseAddPt(t)
+\i -0.66875:0.3
+\r t
+\a mouseAddPt(t)
+\i -0.6875:0.68125
+\r t
+\a mouseAddPt(t)
+\i -0.00625:1.20625
+\r t
+\a mouseAddPt(t)
+\i 0.8125:1.2375
+\r t
+\a mouseAddPt(t)
+\i 0.00625:1.0125
+\r t
+\a mouseAddPt(t)
+\i 0:1.18125
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a mouseAddPt(t)
+\i -0.24375:0.825
+\r t
+\a mouseAddPt(t)
+\i -0.7:0.69375
+\r t
+\a mouseAddPt(t)
+\i -0.00625:0.99375
+\r t
+\a mouseAddPt(t)
+\i 0.8:1.23125
+\r t
+\a mouseAddPt(t)
+\i -0.00625:0.8
+\r t
+\a mouseAddPt(t)
+\i -0.0125:0.55
+\r t
+\a mouseAddPt(t)
+\i 0.0125:0.63125
+\r t
+\a mouseAddPt(t)
+\i 0:0.55
+\r t
+\a mouseAddPt(t)
+\i 0:0.19375
+\r t
+\a mouseAddPt(t)
+\i 0.825:0.86875
+\r t
+\a mouseAddPt(t)
+\i 0.0125:0.34375
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schSingleSelectPt()
+\i -0.6875:0.5
+\r t
+\a _oiSelectItem(dwindow('oiAssistant1) "3" 1)
+\r t
+\a _oiSetItem(dwindow('oiAssistant1) "3" 1 "VGS")
+\r t
+\a _oiSetItem(dwindow('oiAssistant1) "3" 1 "VGS")
+\r t
+\a schSingleSelectPt()
+\i 0.8125:1.0625
+\r t
+\a _oiSelectItem(dwindow('oiAssistant1) "3" 1)
+\r t
+\a mouseAddPt()
+\i nil
+\r nil
+\a _oiSetItem(dwindow('oiAssistant1) "3" 1 "VDS")
+\r t
+\a _oiSetItem(dwindow('oiAssistant1) "3" 1 "VDS")
+\r t
+\a schSingleSelectPt()
+\i -0.3125:1.1875
+\r nil
+\a schSingleSelectPt()
+\i -0.125:0.8125
+\r t
+\a _oiSelectItem(dwindow('oiAssistant1) "1" 1)
+\r t
+\a mouseAddPt()
+\i nil
+\r nil
+\a _oiSetItem(dwindow('oiAssistant1) "1" 1 "300n")
+\r t
+\a _oiSetItem(dwindow('oiAssistant1) "1" 1 "300n")
+\r t
+\a schSingleSelectPt()
+\i -1.1875:0.4375
+\r nil
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "test_nmos schematic"
+\o INFO (SCH-1426): Schematic check completed with no errors.
+\# Current Window: window(2) Window cellview: channel_response_test:test_nmos:schematic  Application: Schematics
+\o INFO (SCH-1181): "channel_response_test test_nmos schematic" saved.
+\r t
+\a _deUpdateMenu('schematicTools 2)
+\r t
+\a deInstallApp(getCurrentWindow() "analogArtist-Schematic")
+\o Loading vdsil.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading analog.cxt 
+\o Loading par.cxt 
+\o Loading asimenv.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o Loading lx.cxt 
+\o Loading lce.cxt 
+\w *WARNING* Font name -*-helvetica-medium-r-*-*-12-* is invalid 
+\w *WARNING* Font name -*-helvetica-medium-r-*-*-12-* is invalid 
+\w *WARNING* Font name -*-helvetica-medium-r-*-*-12-* is invalid 
+\o Loading rte.cxt 
+\o Loading te.cxt 
+\o Loading schHDL.cxt 
+\o Loading viva.cxt 
+\o Loading spectrei.cxt 
+\# Current Window: window(3)
+\# Displaying modal dbox "_icLicLicenseQuestionDBox", title "Next License"
+\p > 
+\# Memory report: using         435 MB, process size 2,056 MB at UTC 2023.04.18 07:10:21.961
+\a hiDBoxUser(_icLicLicenseQuestionDBox nil 1)
+\r t
+\# Displaying modal dbox "_icLicLicenseQuestionDBox", title "Next License"
+\p > 
+\a hiDBoxUser(_icLicLicenseQuestionDBox nil 1)
+\r t
+\# Displaying modal dbox "_icLicLicenseQuestionDBox", title "Next License"
+\p > 
+\a hiDBoxUser(_icLicLicenseQuestionDBox nil 1)
+\r t
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\r t
+\a (sevCopyCellViewVariables 'sevSession1 ?copyCV t)
+\r t
+\a sevTableSelectRows(sevWindowForm1->varListBox 0)
+\r t
+\a sevSetTableItem(sevWindowForm1->varListBox 0 1 "0.7")
+\r t
+\o Loading paraplot.cxt 
+\a sevTableSelectRows(sevWindowForm1->varListBox 0)
+\r t
+\a sevSetTableItem(sevWindowForm1->varListBox 0 1 "1")
+\r t
+\a sevTableSelectRows(sevWindowForm1->varListBox 1)
+\r t
+\a sevSetTableItem(sevWindowForm1->varListBox 1 1 "0.5")
+\r t
+\a (sevEditSelectedAnas 'sevSession1)
+\p > 
+\a _asii_spectre0_analysis_form->asiiAnalysisRadioField->value="dc"
+\r "dc"
+\a _asii_spectre0_analysis_form->dc_saveOppoint->value= t
+\r t
+\a _asii_spectre0_analysis_form->dc_sweep->Design\ Variable->value =  t
+\r t
+\a _asii_spectre0_analysis_form->dc_designVar->value="VDS"
+\r "VDS"
+\a _asii_spectre0_analysis_form->dc_start->value="0"
+\r "0"
+\a _asii_spectre0_analysis_form->dc_stop->value="1"
+\r "1"
+\a hiFormDone(_asii_spectre0_analysis_form)
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\r t
+\r t
+\a (sevEditSelectedOuts 'sevSession1)
+\p > 
+\a hiiSetCurrentForm('sevOutputsForm1)
+\r t
+\a sevOutputsForm1->name->value="IOUT"
+\r "IOUT"
+\a (sevSetOutputsFromForm 'sevSession1 'schematic)
+\r t
+\a hiSetCurrentWindow(window(2))
+\# Current Window: window(2) Window cellview: channel_response_test:test_nmos:schematic  Application: analogArtist-Schematic
+\r t
+\a schSingleSelectPt()
+\i 0:1
+\i 0:1
+\r t
+\a hiSetCurrentWindow(window(3))
+\# Current Window: window(3)
+\r t
+\a hiFormDone(sevOutputsForm1)
+\r t
+\r t
+\a sevParametricTool('sevSession1)
+\# Current Window: window(4)
+\r window:4
+\a _apaSelectItem(apaTool0->parametricForm "'( (0 0) )")
+\r t
+\a _apaShowRangeColumn(apaTool0->parametricForm "false")
+\r t
+\a _apaShowInclColumn(apaTool0->parametricForm "false")
+\r t
+\a _apaShowExclColumn(apaTool0->parametricForm "false")
+\r t
+\a _apaSetRunMode(apaTool0->parametricForm 1)
+\r t
+\a _apaSetRunMode(apaTool0->parametricForm 1)
+\r t
+\a _apaSelectItem(apaTool0->parametricForm "'( (0 0) )")
+\r t
+\a _apaSelectItem(apaTool0->parametricForm "'( (0 0) )")
+\r t
+\a _apaSetData(apaTool0->parametricForm 0 0 "VDS")
+\r t
+\a _apaSetData(apaTool0->parametricForm 0 1 "1")
+\r t
+\a _apaSetData(apaTool0->parametricForm 0 0 "VGS")
+\r t
+\a _apaSetData(apaTool0->parametricForm 0 1 "0.5")
+\r t
+\a _apaSelectItem(apaTool0->parametricForm "'( (0 10) )")
+\r t
+\a _apaSelectItem(apaTool0->parametricForm "'( (0 10) )")
+\r t
+\a _apaSetData(apaTool0->parametricForm 0 10 "0.4 0.6 0.8")
+\r t
+\a (_apaSaveParamFileCallback (hiGetCurrentWindow))
+\p > modify_plot
+\a (hiFileDialogSetSelection _apaSaveFileBrowser0 nil 'cancel)
+\r t
+\a (hiFileDialogDone _apaSaveFileBrowser0 nil)
+\r t
+\a (_apaStartCallback (hiGetCurrentWindow))
+\o Delete psf data in /home/ak247/simulation/test_nmos/spectre/schematic/psf.
+\o generate netlist...
+\o Loading seCore.cxt 
+\o Initializing the control file using cp:
+\o     cp /home/lab.apps/vlsiapps_new/virtuoso/IC618/tools.lnx86/dfII/etc/si/control.spectre /home/ak247/simulation/test_nmos/spectre/schematic/netlist/control
+\o Copying Spectre source file 'spectre.inp'
+\o Copying Spectre command file 'spectre.sim'
+\o Begin Incremental Netlisting Apr 18 00:11:38 2023
+\o Loading json.cxt 
+\o End netlisting Apr 18 00:11:39 2023
+\o Loading monte.cxt 
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    3
+\o 
+\o 	Elapsed time:          1.0s (3.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o INFO (ADE-3069): Errors encountered during simulation. For more information, see the log files
+\o         accessible from the Simulation -> Output Log menu.
+\o reading simulation data...
+\o       ...successful.
+\o Parametric Simulation Failed.
+\a hiResizeWindow(swindow(2) list(814:284 1506:759))
+\r t
+\a hiResizeWindow(window(4) list(675:112 1635:550))
+\r t
+\a hiResizeWindow(window(1) list(567:178 1362:371))
+\r t
+\a hiResizeWindow(window(1) list(567:49 1362:371))
+\r t
+\a hiResizeWindow(window(4) list(0:49 960:487))
+\r t
+\a hiSetCurrentWindow(window(3))
+\# Current Window: window(3)
+\r t
+\a _spectreViewSimulatorOutput('sevSession1)
+\# Current Window: window(5)
+\r ("/home/ak247/simulation/test_nmos/spectre/schematic/psf/spectre.out")
+\# Memory report: using         535 MB, process size 2,254 MB at UTC 2023.04.18 07:12:25.949
+\a hiResizeWindow(window(5) list(848:109 1363:809))
+\r t
+\a hiSetCurrentWindow(window(3))
+\# Current Window: window(3)
+\r t
+\a hiSetCurrentWindow(window(5))
+\# Current Window: window(5)
+\r t
+\a hiResizeWindow(window(5) list(848:109 1781:809))
+\r t
+\a hiCloseWindow(window(5))
+\# Current Window: window(4)
+\r t
+\a _hiSetCurrentWinNum(4)
+\r t
+\a hiSetCurrentWindow(window(3))
+\# Current Window: window(3)
+\r t
+\a sevChooseSimulator('sevSession1)
+\p > modify_plot
+\a hiiSetCurrentForm('sevSimulatorForm1)
+\r t
+\a hiFormCancel(sevSimulatorForm1)
+\r t
+\r nil
+\a sevEditModels('sevSession1)
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "'( (0 0))")
+\r t
+\r t
+\a hiiSetCurrentForm('editModelsForm)
+\r t
+\a hiFormCancel(editModelsForm)
+\r t
+\i ddsServOpen("NCSU_Devices_FreePDK45" "NMOS_VTL" "spectre" "edit" nil)
+\# Current Window: window(6)
+\# Displaying modal dbox "_schDBox", title "Question"
+\p > modify_plot
+\a hiDBoxOK(_schDBox)
+\r t
+\a when(dwindow('oiAssistant2) hiMapWindow(dwindow('oiAssistant2)))
+\r t
+\a when(dwindow('treeAssistant2) hiMapWindow(dwindow('treeAssistant2)))
+\r t
+\a hiCloseWindow(swindow(3))
+\# Current Window: window(4)
+\r t
+\a _hiSetCurrentWinNum(4)
+\r t
+\a hiSetCurrentWindow(window(3))
+\# Current Window: window(3)
+\r t
+\a hiCloseWindow(window(4))
+\r t
+\a hiResizeWindow(swindow(1) list(152:183 1052:873))
+\r t
+\a hiSetCurrentWindow(window(2))
+\# Current Window: window(2) Window cellview: channel_response_test:test_nmos:schematic  Application: analogArtist-Schematic
+\r t
+\a schSingleSelectPt()
+\i -1.1875:0.125
+\r nil
+\a _deUpdateMenu('schematicTools 2)
+\r t
+\a hiResizeWindow(swindow(1) list(767:86 1667:776))
+\r t
+\a hiResizeWindow(swindow(1) list(467:112 1367:802))
+\r t
+\a hiSetCurrentWindow(window(3))
+\# Current Window: window(3)
+\r t
+\a sevEditModels('sevSession1)
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "nil")
+\r t
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "'( (0 0))")
+\r t
+\r t
+\a hiFormCancel(editModelsForm) 
+\r t
+\a hiCloseWindow(swindow(2))
+\# Displaying modal dbox "sevblockingDialogBox", title "Save State Query"
+\p > modify_plot
+\a hiDBoxOK(sevblockingDialogBox)
+\r t
+\p > modify_plot
+\a hiiSetCurrentForm('sevSaveForm1)
+\r t
+\a sevSaveForm1->optionCellView->value="Cellview"
+\r "Cellview"
+\a hiFormDone(sevSaveForm1)
+\o Loading adpServer.cxt 
+\r t
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables1".
+\o To save future changes, copy variables to cellView before exiting.
+\# Current Window: window(2) Window cellview: channel_response_test:test_nmos:schematic  Application: Schematics
+\r t
+\a _hiSetCurrentWinNum(2)
+\r t
+\a hiCloseWindow(swindow(1))
+\r t
+\a ddsOpenLibManager()
+\r t
+\i ddsServOpen("channel_response_test" "test_nmos" "schematic" "edit" nil)
+\# Current Window: window(7)
+\a when(dwindow('oiAssistant3) hiMapWindow(dwindow('oiAssistant3)))
+\r t
+\a when(dwindow('treeAssistant3) hiMapWindow(dwindow('treeAssistant3)))
+\r t
+\a _deUpdateMenu('schematicTools 7)
+\r t
+\a deInstallApp(getCurrentWindow() "analogArtist-Schematic")
+\# Current Window: window(8)
+\r t
+\a sevLoadState('sevSession2)
+\p > 
+\a hiiSetCurrentForm('sevLoadForm2)
+\r t
+\a sevLoadForm2->optionCellView->value="Cellview"
+\r "Cellview"
+\a hiFormDone(sevLoadForm2)
+\r t
+\r t
+\a sevEditModels('sevSession2)
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "'( (0 0))")
+\r t
+\r t
+\a hiiSetCurrentForm('editModelsForm)
+\r t
+\a sevModelItemChanged(editModelsForm->modelLibraryNative "Global Model Files" 0 0 "false")
+\r t
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "'( (0 0))")
+\r t
+\a sevModelItemChanged(editModelsForm->modelLibraryNative "Global Model Files" 0 0 "true")
+\r t
+\a sevModelItemChanged(editModelsForm->modelLibraryNative "Global Model Files" 0 1 "/home/projects/ee476.2022aut/common/cadence_setup/freepdk45.l")
+\r t
+\a sevModelItemChanged(editModelsForm->modelLibraryNative "Global Model Files" 0 2 "tt_lib")
+\r t
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "nil")
+\r t
+\a hiFormDone(editModelsForm)
+\r t
+\a sevNetlistAndRun('sevSession2)
+\o Delete psf data in /home/ak247/simulation/test_nmos/spectre/schematic/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 18 00:39:50 2023
+\o End netlisting Apr 18 00:39:50 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\r t
+\# Current Window: window(9)
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\# Current Window: window(10)
+\a rdbLoadResults("sevSession2" "/home/ak247/simulation/test_nmos/spectre/schematic/psf")
+\r t
+\# Current Window: window(11)
+\a hiCloseWindow(swindow(6))
+\# Current Window: window(9)
+\r t
+\a _hiSetCurrentWinNum(9)
+\r t
+\a _hiSetCurrentWinNum(9)
+\r t
+\a hiSetCurrentWindow(window(8))
+\# Current Window: window(8)
+\r t
+\a sevParametricTool('sevSession2)
+\# Current Window: window(12)
+\r window:12
+\a _apaShowRangeColumn(apaTool1->parametricForm "false")
+\r t
+\a _apaShowInclColumn(apaTool1->parametricForm "false")
+\r t
+\a _apaShowExclColumn(apaTool1->parametricForm "false")
+\r t
+\a _apaSetRunMode(apaTool1->parametricForm 1)
+\r t
+\a _apaSetRunMode(apaTool1->parametricForm 1)
+\r t
+\a _apaSelectItem(apaTool1->parametricForm "'( (0 0) )")
+\r t
+\a _apaSelectItem(apaTool1->parametricForm "'( (0 0) )")
+\r t
+\a _apaSetData(apaTool1->parametricForm 0 0 "VGS")
+\r t
+\a _apaSetData(apaTool1->parametricForm 0 1 "0.5")
+\r t
+\a _apaSelectItem(apaTool1->parametricForm "'( (0 10) )")
+\r t
+\a _apaSelectItem(apaTool1->parametricForm "'( (0 10) )")
+\r t
+\a _apaSetData(apaTool1->parametricForm 0 10 "0.4 0.6 0.8")
+\r t
+\a (_apaStartCallback (hiGetCurrentWindow))
+\o Delete psf data in /home/ak247/simulation/test_nmos/spectre/schematic/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 18 00:40:48 2023
+\o End netlisting Apr 18 00:40:48 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\# Current Window: window(13)
+\a rdbLoadResults("sevSession2" "/home/ak247/simulation/test_nmos/spectre/schematic/psf")
+\r t
+\# Current Window: window(14)
+\o parametric simulation complete.
+\a hiCloseWindow(swindow(7))
+\# Current Window: window(12)
+\r t
+\a _hiSetCurrentWinNum(12)
+\r t
+\a _hiSetCurrentWinNum(12)
+\r t
+\a hiCloseWindow(window(12))
+\# Current Window: window(9)
+\r t
+\a _hiSetCurrentWinNum(9)
+\r t
+\a hiSetCurrentWindow(window(8))
+\# Current Window: window(8)
+\r t
+\a sevSaveState('sevSession2)
+\p > 
+\a hiiSetCurrentForm('sevSaveForm2)
+\r t
+\a hiFormDone(sevSaveForm2)
+\# Displaying modal dbox "sevblockingDialogBox", title "Warning"
+\p > 
+\a hiDBoxOK(sevblockingDialogBox)
+\r t
+\r t
+\r t
+\a hiCloseWindow(swindow(5))
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables1".
+\o To save future changes, copy variables to cellView before exiting.
+\# Current Window: window(7) Window cellview: channel_response_test:test_nmos:schematic  Application: Schematics
+\r t
+\a _hiSetCurrentWinNum(7)
+\r t
+\a schSingleSelectPt()
+\i 0.875:-0.0625
+\r nil
+\a hiCloseWindow(swindow(4))
+\r t
+\i ddsServOpen("channel_response_test" "test_nmos" "schematic" "edit" nil)
+\# Current Window: window(15)
+\a when(dwindow('oiAssistant4) hiMapWindow(dwindow('oiAssistant4)))
+\r t
+\a when(dwindow('treeAssistant4) hiMapWindow(dwindow('treeAssistant4)))
+\r t
+\a _deUpdateMenu('schematicTools 15)
+\r t
+\a _deUpdateMenu('schematicTools 15)
+\r t
+\a deInstallApp(getCurrentWindow() "analogArtist-Schematic")
+\# Current Window: window(16)
+\r t
+\a sevLoadState('sevSession3)
+\p > 
+\a hiiSetCurrentForm('sevLoadForm3)
+\r t
+\a sevLoadForm3->optionCellView->value="Cellview"
+\r "Cellview"
+\a hiFormDone(sevLoadForm3)
+\r t
+\r t
+\a sevEditModels('sevSession3)
+\a sevModelItemChanged(editModelsForm->modelLibraryNative "Global Model Files" 0 0 "false")
+\r t
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "nil")
+\r t
+\a sevModelItemChanged(editModelsForm->modelLibraryNative "Global Model Files" 0 0 "true")
+\r t
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "'( (0 1))")
+\r t
+\r t
+\a hiiSetCurrentForm('editModelsForm)
+\r t
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "'( (0 0))")
+\r t
+\a sevModelItemChanged(editModelsForm->modelLibraryNative "Global Model Files" 0 1 "/homes/ak247/EE437/cadence_refs/freepdk45.l")
+\r t
+\a hiFormDone(editModelsForm)
+\r t
+\a sevNetlistAndRun('sevSession3)
+\o Delete psf data in /home/ak247/simulation/test_nmos/spectre/schematic/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 18 00:46:51 2023
+\o End netlisting Apr 18 00:46:51 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\r t
+\# Current Window: window(17)
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\# Current Window: window(18)
+\a rdbLoadResults("sevSession3" "/home/ak247/simulation/test_nmos/spectre/schematic/psf")
+\r t
+\# Current Window: window(19)
+\a hiCloseWindow(swindow(10))
+\# Current Window: window(17)
+\r t
+\a _hiSetCurrentWinNum(17)
+\r t
+\a _hiSetCurrentWinNum(17)
+\r t
+\a hiCloseWindow(window(17))
+\# Current Window: window(16)
+\r t
+\a _hiSetCurrentWinNum(16)
+\r t
+\a hiCloseWindow(swindow(9))
+\# Displaying modal dbox "sevblockingDialogBox", title "Save State Query"
+\p > 
+\a hiDBoxCancel(sevblockingDialogBox)
+\r t
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables1".
+\o To save future changes, copy variables to cellView before exiting.
+\# Current Window: window(15) Window cellview: channel_response_test:test_nmos:schematic  Application: Schematics
+\r t
+\a _hiSetCurrentWinNum(15)
+\r t
+\a hiCloseWindow(swindow(8))
+\r t
+\o  
+\o Library Manager new cellview request for library "channel_response_test".
+\i deNew('(nil libName "channel_response_test"))
+\p > 
+\a hiiSetCurrentForm('deNewForm)
+\r t
+\a deNewForm->deCellName->value="impulse_response"
+\r "impulse_response"
+\a hiFormDone(deNewForm)
+\r t
+\# Current Window: window(20)
+\a when(dwindow('oiAssistant5) hiMapWindow(dwindow('oiAssistant5)))
+\r t
+\a when(dwindow('treeAssistant5) hiMapWindow(dwindow('treeAssistant5)))
+\r t
