@@ -30,10 +30,14 @@ and populate it with the contents of the repository.
 #### Testing `GPDK`
 1. In the library manager, select `gpdk_test` and open the `nmos_test` schematic.
 1. Launch ADE and load the `spectre_state1` simulation in ADE, under "Session > Load State", and select the `spectre_state1` _cellview_.
-1. Run the simulation. It should show a VGS sweep, with high-vt, low-vt, and standard-vt devices.
+1. Run the simulation. It should show a VGS sweep, with high-vt, low-vt, and standard-vt devices, like this:
+![GPDK Simulation](./simulation_pics/setup_simulations/gpdk_test.png)
 
 #### Testing `FreePDK`
-1. 
+1. In the library manager, select `freepdk_channel_response_test` and open the `test_nmos` schematic.
+1. Launch ADE and load the `spectre_state1` simulation in ADE, under "Session > Load State", and select the `spectre_state1` _cellview_.
+1. Run the simulation. It should show a typical VDS sweep with a set VGS, like this:
+![FreePDK Simulation](./simulation_pics/setup_simulations/freepdk_test.png)
 
 ## Version Control
 ### Creating a New Branch
@@ -42,3 +46,15 @@ and populate it with the contents of the repository.
 1. Under "Development", create a new branch. The default name is fine, shorten if you like.
 
 ### Using `git` Locally
+1. To start working on your new branch, enter:
+```bash
+git fetch origin
+git checkout 1-your-new-branch
+```
+1. To push your changes to the repo, enter:
+```
+git pull                        #  pull remote changes, shouldn't have any conflicts but good to check
+git add .                       #  track changed files
+git commit -m "COMMIT MESSAGE"  #  commit your changes, briefly describe them
+git push                        #  push your changes to remote branch
+```
