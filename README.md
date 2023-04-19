@@ -33,12 +33,35 @@ and populate it with the contents of the repository.
 1. Run the simulation. It should show a VGS sweep, with high-vt, low-vt, and standard-vt devices.
 
 #### Testing `FreePDK`
-1. 
+1. In the library manager, select `freepdk_channel_response_test` and open the `test_nmos` schematic.
+1. Launch ADE and load the `spectre_state1` simulation in ADE, under "Session > Load State", and select the `spectre_state1` _cellview_.
+1. Run the simulation. It should show a typical VDS sweep with a set VGS.
 
 ## Version Control
 ### Creating a New Branch
-1. Go to the GitHub Issues Page and create a new issue. Describe what you will be doing.
+1. Go to the [GitHub Issues Page](https://github.com/Codax2000/ee437-wireline-transceiver/issues) and create a new issue. Describe what you will be doing.
 1. On the right side, assign yourself under "Assignees".
 1. Under "Development", create a new branch. The default name is fine, shorten if you like.
+1. To switch to your new branch, enter:
+```bash
+git fetch origin
+git checkout ENTER-NEW-BRANCH-NAME
+```
 
-### Using `git` Locally
+### Collaborating With `git`
+1. To save changes and add them to your branch on the main repository, enter the following:
+```bash
+git pull                        # pull any changes so you can push safely
+git add .                       # track all files, or you can add them individually
+git commit -m "COMMIT MESSAGE"  # briefly describe changes
+git push                        # push your changes to GitHub
+```
+1. To merge your branch with the main, please create a pull request on GitHub.
+    1. Go to [Pull Requests](https://github.com/Codax2000/ee437-wireline-transceiver/pulls).
+    1. Create a new pull request, with `base: main` on the left and `compare: your-new-branch` on the right.
+    1. Briefly describe what you've done in the branch you'd like to merge with main.
+    1. Create the pull request.
+1. It's good practice to ensure there aren't any conflicts before merging. GitHub will check these automatically.
+1. Please give others a heads up if your changes impact them.
+1. If there are no conflicts, confirm the merge and delete your old branch.
+1. This should also resolve the issue in the issues page. Make sure it's been resolved.
