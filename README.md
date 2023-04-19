@@ -34,6 +34,11 @@ and populate it with the contents of the repository.
 ![GPDK Simulation](./simulation_pics/setup_simulations/gpdk_test.png)
 
 #### Testing `FreePDK`
+1. If you have never used `FreePDK`, enter `vi ~/.cshrc` and add this line by pressing `i`.
+```bash
+source /home/lab.apps/vlsiapps/kits/FreePDK45/ncsu_basekit/cdssetup/setup.csh
+```
+Save your changes by pressing `esc` and entering `:wq` in vim.
 1. In the library manager, select `freepdk_channel_response_test` and open the `test_nmos` schematic.
 1. Launch ADE and load the `spectre_state1` simulation in ADE, under "Session > Load State", and select the `spectre_state1` _cellview_.
 1. Run the simulation. It should show a typical VDS sweep with a set VGS, like this:
