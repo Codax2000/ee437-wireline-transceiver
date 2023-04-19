@@ -2,6 +2,8 @@
 
 ### Alex, Eugene, Tyler, Micheal, Diego, Matthew
 
+[GitHub Video Walkthrough](https://youtu.be/V73aTyj0jf8)
+
 ## Setup
 ### Creating a New SSH Key
 1. SSH into the Linux server in the client of your choice, like PuTTY, MobaXTerm, or VSCode
@@ -43,6 +45,7 @@ Save your changes by pressing `esc` and entering `:wq` in vim.
 1. Launch ADE and load the `spectre_state1` simulation in ADE, under "Session > Load State", and select the `spectre_state1` _cellview_.
 1. Run the simulation. It should show a typical VDS sweep with a set VGS, like this:
 ![FreePDK Simulation](./simulation_pics/setup_simulations/freepdk_test.png)
+1. If there is an error showing that there is not associated model, go to Setup > Model Libraries and add `./cadence_refs/freepdk45.l`.
 
 ## Version Control
 ### Creating a New Branch
