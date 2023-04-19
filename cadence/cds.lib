@@ -7,4 +7,10 @@ DEFINE cdsDefTechLib $CDSHOME/tools/dfII/etc/cdsDefTechLib
 DEFINE NCSU_TechLib_FreePDK45 $PDK_DIR/ncsu_basekit/lib/NCSU_TechLib_FreePDK45
 DEFINE NCSU_Devices_FreePDK45 $PDK_DIR/ncsu_basekit/lib/NCSU_Devices_FreePDK45
 DEFINE NangateOpenCellLibrary /home/lab.apps/vlsiapps/kits/FreePDK45/stcell/NangateOpenCellLibrary_PDKv1_3_v2010_12/Back_End/virtuoso/NangateOpenCellLibrary
-DEFINE channel_response_test /home/ak247/EE437/cadence/channel_response_test
+#Removed by ddDeleteObj: DEFINE channel_response_test /home/ak247/EE437/cadence/channel_response_test
+
+DEFINE gpdk045 /home/lab.apps/vlsiapps/kits/GPDK045/gpdk045_v_6_0/gpdk045
+
+
+DEFINE freepdk_channel_response_test /home/ak247/EE437/cadence/freepdk_channel_response_test
+DEFINE gpdk_test /home/ak247/EE437/cadence/gpdk_test
