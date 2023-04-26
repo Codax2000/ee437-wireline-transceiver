@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("freepdk_channel_response_test" "eye_diagram_unrolled" "schematic" "spectre")
+descriptionText = "None"
