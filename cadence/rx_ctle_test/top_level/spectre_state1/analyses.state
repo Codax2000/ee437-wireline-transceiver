@@ -37,7 +37,7 @@ analysis(ac fields start) "1"
 analysis(ac fields step) ""
 analysis(ac fields stepTypeLin) "Step Size"
 analysis(ac fields stepTypeLog) "Points Per Decade"
-analysis(ac fields stop) "12.5G"
+analysis(ac fields stop) "100G"
 analysis(ac fields sweep) "Frequency"
 analysis(ac fields sweepChange) nil
 analysis(ac fields useDiscrete) nil
