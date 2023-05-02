@@ -36,16 +36,21 @@ and populate it with the contents of the repository.
 ![GPDK Simulation](./simulation_pics/setup_simulations/gpdk_test.png)
 
 #### Testing `FreePDK`
-1. If you have never used `FreePDK`, enter `vi ~/.cshrc` and add this line by pressing `i`.
-```bash
-source /home/lab.apps/vlsiapps/kits/FreePDK45/ncsu_basekit/cdssetup/setup.csh
-```
-Save your changes by pressing `esc` and entering `:wq` in vim.
+1. In the top-level folder, enter `source setup_cadence.csh`. This will set the `PDK_DIR` environment variable.
 1. In the library manager, select `freepdk_channel_response_test` and open the `test_nmos` schematic.
 1. Launch ADE and load the `spectre_state1` simulation in ADE, under "Session > Load State", and select the `spectre_state1` _cellview_.
 1. Run the simulation. It should show a typical VDS sweep with a set VGS, like this:
 ![FreePDK Simulation](./simulation_pics/setup_simulations/freepdk_test.png)
-1. If there is an error showing that there is not associated model, go to Setup > Model Libraries and add `./cadence_refs/freepdk45.l`.
+1. If there is an error showing that there is no associated model, go to Setup > Model Libraries and add `./cadence_refs/freepdk45.l`.
+
+#### Using `NangateOpenCellLibrary` with `GPDK`
+1. Navigate to the `test_nangate_with_gpdk` library.
+1. Open the `double_inverter` cell and launch ADE.
+1. Open the saved spectre state and run the transient simulation.
+1. A couple notes on simulations together:
+    1. You have to have both model libraries linked. If you attach a new library to `gpdk`, make sure to add `./cadence_refs/freepdk45.l` in Setup > Model Libraries.
+    1. You need to connect the `VDD!` and `VSS!` ports to a 1V and 0V `vdc` voltage source for the standard cells to work properly.
+
 
 ## Version Control
 ### Creating a New Branch

@@ -14,8 +14,9 @@ DEFINE NangateOpenCellLibrary /home/lab.apps/vlsiapps/kits/FreePDK45/stcell/Nang
 DEFINE gpdk045 /home/lab.apps/vlsiapps/kits/GPDK045/gpdk045_v_6_0/gpdk045
 
 
-DEFINE freepdk_channel_response_test /home/ak247/EE437/cadence/freepdk_channel_response_test
-DEFINE gpdk_test /home/ak247/EE437/cadence/gpdk_test
-DEFINE channel_response /home/ak247/EE437/cadence/channel_response
-DEFINE tx_block /home/ak247/EE437/cadence/tx_block
-DEFINE rx_ctle_test /home/ak247/EE437/cadence/rx_ctle_test
+DEFINE freepdk_channel_response_test ./freepdk_channel_response_test
+DEFINE gpdk_test ./gpdk_test
+DEFINE channel_response ./channel_response
+DEFINE tx_block ./tx_block
+DEFINE rx_ctle_test ./rx_ctle_test
+DEFINE test_nangate_with_gpdk ./test_nangate_with_gpdk
