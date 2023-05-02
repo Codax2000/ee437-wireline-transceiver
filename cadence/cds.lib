@@ -1,3 +1,5 @@
+# File Created by Eugene Liu at Wed Apr 19 00:00:35 2023
+# assisted by CdsLibEditor
 # File Created by Alexander Knowlton at Tue Apr 18 14:07:21 2023
 # assisted by CdsLibEditor
 DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
@@ -16,3 +18,4 @@ DEFINE freepdk_channel_response_test /home/ak247/EE437/cadence/freepdk_channel_r
 DEFINE gpdk_test /home/ak247/EE437/cadence/gpdk_test
 DEFINE channel_response /home/ak247/EE437/cadence/channel_response
 DEFINE tx_block /home/ak247/EE437/cadence/tx_block
+DEFINE rx_ctle_test /home/euliu/EE437/cadence/rx_ctle_test
