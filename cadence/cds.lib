@@ -18,4 +18,4 @@ DEFINE freepdk_channel_response_test /home/ak247/EE437/cadence/freepdk_channel_r
 DEFINE gpdk_test /home/ak247/EE437/cadence/gpdk_test
 DEFINE channel_response /home/ak247/EE437/cadence/channel_response
 DEFINE tx_block /home/ak247/EE437/cadence/tx_block
-DEFINE rx_ctle_test /home/euliu/EE437/cadence/rx_ctle_test
+DEFINE rx_ctle_test /home/ak247/EE437/cadence/rx_ctle_test
