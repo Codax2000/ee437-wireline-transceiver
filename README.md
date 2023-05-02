@@ -77,6 +77,7 @@ git push                        # push your changes to GitHub
     1. Briefly describe what you've done in the branch you'd like to merge with main.
     1. Create the pull request.
 1. It's good practice to ensure there aren't any conflicts before merging. GitHub will check these automatically.
+1. If you have made a new library, please change your `cds.lib` file to have relative paths, i.e. all paths are `./path_to_your_new_library` instead of /home/your_name/EE437/cadence/path_to_your_new_library`.
 1. **Please give others a heads up if your changes impact them.**
 1. If there are no conflicts, confirm the merge and delete your old branch.
 1. This should also resolve the issue in the issues page. Make sure it's been resolved by checking the issues page.
