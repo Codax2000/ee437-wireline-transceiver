@@ -1,6 +1,6 @@
 analysis(ac fields center) ""
 analysis(ac fields contriblist) nil
-analysis(ac fields dec) ""
+analysis(ac fields dec) "10"
 analysis(ac fields designVar) ""
 analysis(ac fields dev) ""
 analysis(ac fields deviceParam) ""
@@ -8,7 +8,7 @@ analysis(ac fields enable) (nil)
 analysis(ac fields fim_out) ""
 analysis(ac fields flin_out) ""
 analysis(ac fields freq) ""
-analysis(ac fields incrType) "Automatic"
+analysis(ac fields incrType) "Logarithmic"
 analysis(ac fields lin) ""
 analysis(ac fields log) ""
 analysis(ac fields maxharm_nonlin) ""
