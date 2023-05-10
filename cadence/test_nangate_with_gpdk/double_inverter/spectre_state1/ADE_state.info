@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("test_nangate_with_gpdk" "double_inverter" "schematic" "spectre")
+descriptionText = "None"
