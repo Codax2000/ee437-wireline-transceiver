@@ -24,3 +24,4 @@ DEFINE cml_driver ./cml_driver
 DEFINE equalized_channel /home/ak247/EE437/cadence/equalized_channel
 DEFINE serializer /home/ak247/EE437/cadence/serializer
 DEFINE tspc_ff /home/euliu/EE437/cadence/tspc_ff
+DEFINE inverter /home/euliu/EE437/cadence/inverter
