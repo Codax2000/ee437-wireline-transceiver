@@ -20,3 +20,6 @@ DEFINE channel_response ./channel_response
 DEFINE tx_block ./tx_block
 DEFINE rx_ctle_test ./rx_ctle_test
 DEFINE test_nangate_with_gpdk ./test_nangate_with_gpdk
+DEFINE cml_driver ./cml_driver
+DEFINE equalized_channel /home/ak247/EE437/cadence/equalized_channel
+DEFINE serializer /home/ak247/EE437/cadence/serializer

@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("cml_driver" "switches-40-20-10-5" "schematic" "spectre")
+descriptionText = "tran, dc"

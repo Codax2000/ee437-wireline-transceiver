@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("equalized_channel" "full_channel_tb" "schematic" "spectre")
+descriptionText = "None"
