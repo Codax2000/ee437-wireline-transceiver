@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("cml_driver" "top_level" "schematic" "spectre")
+descriptionText = "None"

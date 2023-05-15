@@ -4,7 +4,7 @@ analysis(ac fields dec) "10"
 analysis(ac fields designVar) ""
 analysis(ac fields dev) ""
 analysis(ac fields deviceParam) ""
-analysis(ac fields enable) (nil)
+analysis(ac fields enable) (t)
 analysis(ac fields fim_out) ""
 analysis(ac fields flin_out) ""
 analysis(ac fields freq) ""
@@ -126,7 +126,7 @@ analysis(tran fields dynamicChoice) "Vector"
 analysis(tran fields dynamicParameter) "Parameter"
 analysis(tran fields dynchoice) "Parameter vector"
 analysis(tran fields dynparam) ""
-analysis(tran fields enable) (t)
+analysis(tran fields enable) (nil)
 analysis(tran fields enableMinFreq) ""
 analysis(tran fields enablepsdstarttime) ""
 analysis(tran fields errpreset) "conservative"

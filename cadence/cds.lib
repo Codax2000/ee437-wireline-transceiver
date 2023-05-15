@@ -25,3 +25,5 @@ DEFINE equalized_channel /home/ak247/EE437/cadence/equalized_channel
 DEFINE serializer /home/ak247/EE437/cadence/serializer
 DEFINE tspc_ff /home/euliu/EE437/cadence/tspc_ff
 DEFINE inverter /home/euliu/EE437/cadence/inverter
+#Removed by ddDeleteObj: DEFINE serdes_toplevel /home/euliu/EE437/cadence/serdes_toplevel
+DEFINE serdes_top_level /home/euliu/EE437/cadence/serdes_top_level
