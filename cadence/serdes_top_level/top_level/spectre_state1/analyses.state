@@ -148,7 +148,7 @@ analysis(tran fields param_vec) nil
 analysis(tran fields psdmaxfreq) ""
 analysis(tran fields psdminfreq) ""
 analysis(tran fields psdstarttime) ""
-analysis(tran fields stop) "100n"
+analysis(tran fields stop) "20n"
 analysis(tran fields tranNoise) ""
 analysis(tran fields tranNoiseMultiRuns) ""
 analysis(tran fields trannoisemethod) "default"
