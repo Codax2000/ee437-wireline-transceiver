@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("tspc" "top_level" "schematic" "spectre")
+descriptionText = "None"
