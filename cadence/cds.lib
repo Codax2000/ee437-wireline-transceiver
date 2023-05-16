@@ -21,9 +21,10 @@ DEFINE tx_block ./tx_block
 DEFINE rx_ctle_test ./rx_ctle_test
 DEFINE test_nangate_with_gpdk ./test_nangate_with_gpdk
 DEFINE cml_driver ./cml_driver
-DEFINE equalized_channel /home/ak247/EE437/cadence/equalized_channel
-DEFINE serializer /home/ak247/EE437/cadence/serializer
-DEFINE tspc_ff /home/euliu/EE437/cadence/tspc_ff
-DEFINE inverter /home/euliu/EE437/cadence/inverter
+DEFINE equalized_channel ./equalized_channel
+DEFINE serializer ./serializer
+#Removed by ddDeleteObj: DEFINE tspc_ff ./tspc_ff
+DEFINE inverter ./inverter
 #Removed by ddDeleteObj: DEFINE serdes_toplevel /home/euliu/EE437/cadence/serdes_toplevel
-DEFINE serdes_top_level /home/euliu/EE437/cadence/serdes_top_level
+DEFINE serdes_top_level ./serdes_top_level
+DEFINE tspc ./tspc
