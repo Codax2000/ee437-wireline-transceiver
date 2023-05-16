@@ -28,3 +28,4 @@ DEFINE inverter ./inverter
 #Removed by ddDeleteObj: DEFINE serdes_toplevel /home/euliu/EE437/cadence/serdes_toplevel
 DEFINE serdes_top_level ./serdes_top_level
 DEFINE tspc ./tspc
+DEFINE mux /home/ak247/EE437/cadence/mux
