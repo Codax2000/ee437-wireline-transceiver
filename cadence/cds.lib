@@ -1,4 +1,4 @@
-# File Created by Eugene Liu at Wed Apr 19 00:00:35 2023
+# File Created by Eugene Liu at Tue May 16 11:50:20 2023
 # assisted by CdsLibEditor
 # File Created by Alexander Knowlton at Tue Apr 18 14:07:21 2023
 # assisted by CdsLibEditor
@@ -28,4 +28,4 @@ DEFINE inverter ./inverter
 #Removed by ddDeleteObj: DEFINE serdes_toplevel /home/euliu/EE437/cadence/serdes_toplevel
 DEFINE serdes_top_level ./serdes_top_level
 DEFINE tspc ./tspc
-DEFINE mux /home/ak247/EE437/cadence/mux
+DEFINE mux ./mux
