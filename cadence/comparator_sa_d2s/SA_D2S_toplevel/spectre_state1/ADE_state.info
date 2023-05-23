@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("gpdk_test" "SA_D2S_toplevel" "schematic" "spectre")
+descriptionText = "None"
