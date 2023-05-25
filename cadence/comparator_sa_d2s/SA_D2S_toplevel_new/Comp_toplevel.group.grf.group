@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--StateFileType saveLoadState-->
+<topLevel>
+    <SimpleProp Name="stateFileVersion" Value="@(#)$CDS: virtuoso version 6.1.8-64b 03/13/2021 15:49 (cpgsrv07) $" Type="string" />
+    <SimpleProp Name="currentContext" Value="/home/mchen26/simulation/SA_D2S_toplevel/spectre/schematic/psf" Type="stringValue" />
+    <IndexedProp Name="resultsDirMappingList">
+        <SimpleProp Name="__resDirStr_0" Value="/home/mchen26/simulation/SA_D2S_toplevel/spectre/schematic/psf" Type="stringValue" />
+    </IndexedProp>
+    <IndexedProp Name="dependentExprsList">
+        <SimpleProp Name="E0" Value='getData(&quot;/Vip&quot; ?result &apos;tran)' Type="stringValue" />
+        <SimpleProp Name="E1" Value='getData(&quot;/Vip&quot; ?result &apos;dc)' Type="stringValue" />
+        <SimpleProp Name="E2" Value='getData(&quot;/Vim&quot; ?result &apos;tran)' Type="stringValue" />
+        <SimpleProp Name="E3" Value='getData(&quot;/Vim&quot; ?result &apos;dc)' Type="stringValue" />
+        <SimpleProp Name="E4" Value='getData(&quot;/Vom1&quot; ?result &apos;tran)' Type="stringValue" />
+        <SimpleProp Name="E5" Value='getData(&quot;/Vom1&quot; ?result &apos;dc)' Type="stringValue" />
+        <SimpleProp Name="E6" Value='getData(&quot;/Vop1&quot; ?result &apos;tran)' Type="stringValue" />
+        <SimpleProp Name="E7" Value='getData(&quot;/Vop1&quot; ?result &apos;dc)' Type="stringValue" />
+        <SimpleProp Name="E8" Value='getData(&quot;/Vom2&quot; ?result &apos;tran)' Type="stringValue" />
+        <SimpleProp Name="E9" Value='getData(&quot;/Vom2&quot; ?result &apos;dc)' Type="stringValue" />
+        <SimpleProp Name="E10" Value='getData(&quot;/Vop2&quot; ?result &apos;tran)' Type="stringValue" />
+        <SimpleProp Name="E11" Value='getData(&quot;/Vop2&quot; ?result &apos;dc)' Type="stringValue" />
+        <SimpleProp Name="E12" Value='getData(&quot;/Qm1&quot; ?result &apos;tran)' Type="stringValue" />
+        <SimpleProp Name="E13" Value='getData(&quot;/Qm1&quot; ?result &apos;dc)' Type="stringValue" />
+        <SimpleProp Name="E14" Value='getData(&quot;/Qp1&quot; ?result &apos;tran)' Type="stringValue" />
+        <SimpleProp Name="E15" Value='getData(&quot;/Qp1&quot; ?result &apos;dc)' Type="stringValue" />
+        <SimpleProp Name="E16" Value='getData(&quot;/Qm2&quot; ?result &apos;tran)' Type="stringValue" />
+        <SimpleProp Name="E17" Value='getData(&quot;/Qm2&quot; ?result &apos;dc)' Type="stringValue" />
+        <SimpleProp Name="E18" Value='getData(&quot;/Qp2&quot; ?result &apos;tran)' Type="stringValue" />
+        <SimpleProp Name="E19" Value='getData(&quot;/Qp2&quot; ?result &apos;dc)' Type="stringValue" />
+        <SimpleProp Name="E20" Value='getData(&quot;/CLK&quot; ?result &apos;tran)' Type="stringValue" />
+        <SimpleProp Name="E21" Value='getData(&quot;/CLK&quot; ?result &apos;dc)' Type="stringValue" />
+        <SimpleProp Name="E22" Value='getData(&quot;/CLKo&quot; ?result &apos;tran)' Type="stringValue" />
+        <SimpleProp Name="E23" Value='getData(&quot;/CLKo&quot; ?result &apos;dc)' Type="stringValue" />
+    </IndexedProp>
+    <IndexedProp Name="graphFileList">
+        <SimpleProp Value="Comp_toplevel.group_0.grf" Type="stringValue" />
+        <SimpleProp Value="Comp_toplevel.group_1.grf" Type="stringValue" />
+        <SimpleProp Value="Comp_toplevel.group_2.grf" Type="stringValue" />
+        <SimpleProp Value="Comp_toplevel.group_3.grf" Type="stringValue" />
+        <SimpleProp Value="Comp_toplevel.group_4.grf" Type="stringValue" />
+        <SimpleProp Value="Comp_toplevel.group_5.grf" Type="stringValue" />
+        <SimpleProp Value="Comp_toplevel.group_6.grf" Type="stringValue" />
+        <SimpleProp Value="Comp_toplevel.group_7.grf" Type="stringValue" />
+    </IndexedProp>
+</topLevel>
