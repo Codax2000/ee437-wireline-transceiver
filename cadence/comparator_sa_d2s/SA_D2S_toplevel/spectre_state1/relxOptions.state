@@ -22,8 +22,6 @@
 (relxOpts degSortElectroParam) "TMI Default"
 (relxOpts degSortMaxDevices) ""
 (relxOpts degSortThreshold) ""
-(relxOpts degSortType) "threshold"
-(relxOpts degSortValue) ""
 (relxOpts degdatatype) "appendage"
 (relxOpts displayOMIGui) nil
 (relxOpts displayRelxpertGui) nil
