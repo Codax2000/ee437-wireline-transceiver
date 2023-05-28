@@ -30,3 +30,5 @@ DEFINE serdes_top_level ./serdes_top_level
 DEFINE tspc ./tspc
 DEFINE comparator_sa_d2s ./comparator_sa_d2s
 DEFINE mux ./mux
+DEFINE DES ./DES
+

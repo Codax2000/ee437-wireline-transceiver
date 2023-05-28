@@ -1,4 +1,4 @@
-(envOpts analysisOrder) ("dc" "tran")
+(envOpts analysisOrder) ("tran" "dc" "ac")
 (envOpts autoDisplay) t
 (envOpts bus_delimiter) ""
 (envOpts case_sensitive) "false"
