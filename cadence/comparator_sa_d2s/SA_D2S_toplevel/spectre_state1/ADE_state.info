@@ -1,3 +1,3 @@
 projectDir = '"~/simulation"
-designInfo = '("gpdk_test" "SA_D2S_toplevel" "schematic" "spectre")
+designInfo = '("comparator_sa_d2s" "SA_D2S_toplevel" "schematic" "spectre")
 descriptionText = "None"
