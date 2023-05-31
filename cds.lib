@@ -1,6 +1,23 @@
+# File Created by Tyler Duane Rahberger at Tue May 30 15:41:00 2023
+# assisted by CdsLibEditor
 DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
-DEFINE US_8ths   $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
-DEFINE basic     $CDSHOME/tools/dfII/etc/cdslib/basic
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
 DEFINE cdsDefTechLib $CDSHOME/tools/dfII/etc/cdsDefTechLib
-DEFINE NCSU_TechLib_FreePDK45  $PDK_DIR/ncsu_basekit/lib/NCSU_TechLib_FreePDK45
-DEFINE NCSU_Devices_FreePDK45  $PDK_DIR/ncsu_basekit/lib/NCSU_Devices_FreePDK45
+DEFINE NCSU_TechLib_FreePDK45 $PDK_DIR/ncsu_basekit/lib/NCSU_TechLib_FreePDK45
+DEFINE NCSU_Devices_FreePDK45 $PDK_DIR/ncsu_basekit/lib/NCSU_Devices_FreePDK45
+DEFINE tx_block cadence/tx_block
+DEFINE tspc cadence/tspc
+DEFINE test_nangate_with_gpdk cadence/test_nangate_with_gpdk
+DEFINE serializer cadence/serializer
+DEFINE serdes_top_level cadence/serdes_top_level
+DEFINE rx_ctle_test cadence/rx_ctle_test
+DEFINE mux cadence/mux
+DEFINE inverter cadence/inverter
+DEFINE gpdk_test cadence/gpdk_test
+DEFINE freepdk_channel_response_test cadence/freepdk_channel_response_test
+DEFINE equalized_channel cadence/equalized_channel
+DEFINE cml_driver cadence/cml_driver
+DEFINE channel_response cadence/channel_response
+DEFINE DES cadence/DES
+DEFINE NangateOpenCellLibrary /home/lab.apps/vlsiapps/kits/FreePDK45/stcell/NangateOpenCellLibrary_PDKv1_3_v2010_12/Back_End/virtuoso/NangateOpenCellLibrary
