@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("optimizedserializer" "serializer_tb" "schematic" "spectre")
+descriptionText = "None"
